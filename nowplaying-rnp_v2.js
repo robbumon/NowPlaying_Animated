@@ -16,6 +16,7 @@ function decodeHtml(html) {
   return txt.value;
 }
 
+//continuous timer
 var timer = setInterval(function() { getRequest(); }, 1000);
 
 function getRequest() {
@@ -65,9 +66,9 @@ function getRequest() {
             text = title + game + system + composer;
 
             if (prevtext != text) {
-                console.log("updated!")
-                console.log("JSON: " + decodeHtml(data));
-                console.log("artpath: " + artpath);
+                //console.log("updated!")
+                //console.log("JSON: " + decodeHtml(data));
+                //console.log("artpath: " + artpath);
                 startAnimation();
                 updateArtwork();
             }
