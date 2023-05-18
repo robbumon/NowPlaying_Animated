@@ -2,7 +2,6 @@
 Animates "now playing" data from Foobar2000 to a browser source for OBS streaming
 Used specifically for the RhythmandPixels Radio channel on YouTube, can be easily customized. 
 
-=============================
 Requirements:
 =============================
 OBS (streaming) https://obsproject.com/
@@ -11,7 +10,6 @@ Foobar2000 (music playback) https://www.foobar2000.org/
 Nodejs (bypass cors-proxy issue) https://nodejs.org/
   No-Cors-Proxy https://www.npmjs.com/package/no-cors-proxy
 
-=============================
 Files:
 =============================
 nowplaying-rnp_v2.html
