@@ -44,7 +44,7 @@ function getRequest() {
             game = data[0];
             system = data[3];
             composer = data[1];
-            artpath = '../Music/' + data[4] + '/albumart.png'
+            artpath = '../Music/' + data[4] + '/albumart.png' //all my album art files are named "albumart.png" in the corresponding game folder
 
             //Playback HH:MM:SS
             timeremaining = data[5];
